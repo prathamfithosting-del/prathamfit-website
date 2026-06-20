@@ -158,6 +158,16 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
   gap: 2rem;
 }
 .logo{ display:flex; align-items:center; gap:0.55rem; }
+.site-logo{
+    height:60px;
+    width:auto;
+    display:block;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
 .logo-mark{
   font-family: var(--font-mono);
   font-size: 0.7rem; font-weight: 700;
