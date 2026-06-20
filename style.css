@@ -159,7 +159,7 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
 }
 .logo{ display:flex; align-items:center; gap:0.55rem; }
 .site-logo{
-    height:75 px;
+    height:75px;
     width:auto;
     display:block;
 }
