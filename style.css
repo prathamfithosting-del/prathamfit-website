@@ -294,10 +294,9 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
 }
 
 .hero-cta{
-    margin-top:70px;
+    margin-top:40px;
     display:flex;
     gap:20px;
-
 }
 
 /* ===== Signature: scoreboard marquee ===== */
