@@ -246,24 +246,20 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
 .hero-support{ max-width: 460px; color: var(--smoke); margin-bottom: 2.2rem; }
 .hero-cta{ display:flex; gap: 1rem; flex-wrap: wrap; }
 
-.hero-visual{ position: relative; }
-.placeholder-art{
-  position: relative;
-  border-radius: 14px;
-  overflow: hidden;
-  background: var(--ink);
+..hero-visual{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-.placeholder-art svg{ width:100%; height:100%; }
-.placeholder-hero{ aspect-ratio: 600/760; }
-.placeholder-square{ aspect-ratio: 1/1; }
-.placeholder-portrait{ aspect-ratio: 520/640; }
-.placeholder-wide{ aspect-ratio: 600/460; }
-.placeholder-tag{
-  position:absolute; left:0; right:0; bottom:0;
-  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.04em;
-  color: rgba(255,255,255,0.55);
-  background: rgba(0,0,0,0.55);
-  padding: 0.5rem 0.8rem;
+
+.hero-image{
+    width:100%;
+    max-width:620px;
+    height:auto;
+    display:block;
+    object-fit:cover;
+    border-radius:28px;
 }
 
 /* ===== Signature: scoreboard marquee ===== */
