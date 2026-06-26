@@ -237,7 +237,7 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
     height:100%;
 
     object-fit:cover;
-    object-position:center;
+    object-position: center 40%;
 
     z-index:1;
 }
@@ -267,9 +267,8 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
 
 .hero-copy{
 
-    max-width:650px;
-
-    margin-left:8%;
+   max-width:650px;
+   margin-left:8%;
 
 }
 
@@ -282,17 +281,15 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
 
 .hero-sub{
 
-    margin-top:30px;
-
-    font-size:1.6rem;
+   margin-top:30px;
+   font-size:1.6rem;
 
 }
 
 .hero-support{
 
-    margin-top:20px;
-
-    max-width:520px;
+   margin-top:20px;
+   max-width:520px;
 
 }
 
