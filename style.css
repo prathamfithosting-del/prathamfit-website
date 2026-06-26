@@ -256,13 +256,13 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
     height:100%;
 
     background:
-    linear-gradient(
-        90deg,
-        rgba(255,255,255,.95) 0%,
-        rgba(255,255,255,.82) 28%,
-        rgba(255,255,255,.25) 48%,
-        rgba(255,255,255,0) 65%
-    );
+       linear-gradient(
+          90deg,
+          rgba(255,255,255,.92) 0%,
+          rgba(255,255,255,.72) 24%,
+          rgba(255,255,255,.18) 40%,
+          rgba(255,255,255,0) 55%
+       );
 }
 
 .hero-copy{
@@ -276,7 +276,7 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
 .hero-headline{
 
     font-size:6rem;
-    line-height:.9;
+    line-height:.95;
 
 }
 
