@@ -257,11 +257,12 @@ button{ font-family: inherit; background:none; border:none; cursor:pointer; }
 
 .hero-image{
     width:100%;
-    max-width:620px;
-    height:auto;
-    display:block;
+    height:700px;
     object-fit:cover;
-    border-radius:28px;
+
+    border-radius:32px;
+
+    display:block;
 }
 
 /* ===== Signature: scoreboard marquee ===== */
